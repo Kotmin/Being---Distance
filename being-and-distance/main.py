@@ -2,8 +2,8 @@ from db.Driver import Driver
 from db.Car import Car
 
 
-if __name__ == "__main__":
-    # car = Car('Toyota','Yaris')
+
+def main() -> None:
     car = Car(brand='Toyota',model="Yaris")
     driver1 = Driver('Kasia',car)
     driver2 = Driver('Tomek',car)
@@ -16,6 +16,7 @@ if __name__ == "__main__":
     print(f"Total distance moved by {driver2.name}: {driver2.total_distance_moved_by_person}")
 
 
+     
 
-
-
+if __name__ == "__main__":
+    main()
