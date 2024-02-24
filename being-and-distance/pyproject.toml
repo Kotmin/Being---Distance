@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "being-and-distance"
+version = "0.1.0"
+description = ""
+authors = ["kotmin <<kotmin>@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.6.1"
+
+
+[tool.poetry.group.dev.dependencies]
+sqlalchemy = "^2.0.27"
+fastapi = "^0.109.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
