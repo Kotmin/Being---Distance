@@ -1,5 +1,8 @@
-from abc import ABC
+from abc import ABC,abstractclassmethod
+from pydantic import BaseModel
 
-class Vehicle(ABC):
-    def __init__(self, brand):
-        self.brand = brand
+class Vehicle(ABC,BaseModel):
+
+    @abstractclassmethod
+    def get_description(self) -> str:
+        pass

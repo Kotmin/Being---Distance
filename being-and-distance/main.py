@@ -3,7 +3,8 @@ from db.Car import Car
 
 
 if __name__ == "__main__":
-    car = Car('Toyota','Yaris')
+    # car = Car('Toyota','Yaris')
+    car = Car(brand='Toyota',model="Yaris")
     driver1 = Driver('Kasia',car)
     driver2 = Driver('Tomek',car)
 
