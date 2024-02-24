@@ -1,8 +1,3 @@
-# from Being import Being
-
-# from Driver import Driver
-# from Car import Car 
-
 from db.Driver import Driver
 from db.Car import Car
 
