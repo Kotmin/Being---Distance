@@ -1,6 +1,5 @@
 
-from pydantic import BaseModel, validator, Field
-from typing import Optional
+from pydantic import BaseModel, validator
 
 
 class Being(BaseModel):
